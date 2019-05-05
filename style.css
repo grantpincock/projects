@@ -1,0 +1,39 @@
+html {
+    background: url("forest.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 44px;
+    color: #FFFFFF;
+}
+
+.button {
+    background-color: #F08A3F;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    color: white;
+    float: left;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    border: none;
+    padding: 0px 20px;
+    text-align: center;
+    border-radius: 200px; 
+    margin: -10em, 0, 0, -10em;
+    transform: translate(-50%, -50%);
+}
+
+  .button:hover {
+      transition: 1s all ease-in;
+      transform: translate(-50%, -50%) scale(1.1);
+  }
+
+
+  
